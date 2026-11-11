@@ -1,6 +1,8 @@
 {
-  "event_id": "evt-a",
+  "event_id": "evt-line-001",
+  "device_sn": "SYN-PRESS-0001",
   "line": "L-01",
   "quality": "ok",
-  "value": 17
+  "value": 17,
+  "occurred_at": "2026-11-11T08:59:40Z"
 }

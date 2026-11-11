@@ -1,8 +1,9 @@
 {
-  "event_id": "evt-a",
-  "sent_at": "1794301200",
-  "key_id": "local-2026-11",
-  "algorithm": "HMAC-SHA256",
-  "signature": "3503745478dee3c3f65f5ed890108c9b536c5c5cfadbe483ffc43f41d9d40301",
-  "signed_format": "sent_at + ASCII 点号 + event_id + ASCII 点号 + 原始正文"
+  "X-Event-Id": "evt-line-001",
+  "X-Sent-At": "1794387590",
+  "X-Key-Id": "local-2026-11",
+  "X-Sig-Version": "SIG-V1",
+  "X-Signature": "d69339df8f5d1fc1c942bf6905cbed6faae9cf066c02a216f2e5e2e5002f2728",
+  "signed_format": "SIG-V1 分帧：版本头 + 对 sent_at / event_id / 原始正文依次写入[8 字节大端长度][字段字节]，再做 HMAC-SHA256",
+  "sample_now_iso": "2026-11-11T09:00:00Z"
 }

@@ -1,0 +1,7 @@
+{
+  "key_id": "local-2026-10",
+  "secret": "synthetic-old-shared-key-202610",
+  "valid_from": "2026-10-01T00:00:00Z",
+  "retired_at": "2026-11-15T00:00:00Z",
+  "note": "旧密钥，交接期末退役（虚构）"
+}

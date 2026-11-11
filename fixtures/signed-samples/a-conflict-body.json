@@ -1,0 +1,16 @@
+{
+  "description": "合成已签名请求；签名覆盖原始字节、sent_at 与 event_id",
+  "algorithm": "HMAC-SHA256",
+  "sig_version": "SIG-V1",
+  "signed_format": "SIG-V1 分帧：版本头 + 对 sent_at / event_id / 原始正文依次写入[8 字节大端长度][字段字节]，再做 HMAC-SHA256",
+  "headers": {
+    "X-Event-Id": "evt-line-001",
+    "X-Sent-At": "1794387590",
+    "X-Key-Id": "local-2026-11",
+    "X-Sig-Version": "SIG-V1",
+    "X-Signature": "8b31956524a6fd332d014370a08bacd4fba778c114bfbd2ef7b1a8762ff368a4"
+  },
+  "raw_body_b64": "ewogICJldmVudF9pZCI6ICJldnQtbGluZS0wMDEiLAogICJkZXZpY2Vfc24iOiAiU1lOLVBSRVNTLTAwMDEiLAogICJsaW5lIjogIkwtMDEiLAogICJxdWFsaXR5IjogImFsYXJtIiwKICAidmFsdWUiOiA4OCwKICAib2NjdXJyZWRfYXQiOiAiMjAyNi0xMS0xMVQwODo1OTo0MFoiCn0=",
+  "raw_body_utf8": "{\n  \"event_id\": \"evt-line-001\",\n  \"device_sn\": \"SYN-PRESS-0001\",\n  \"line\": \"L-01\",\n  \"quality\": \"alarm\",\n  \"value\": 88,\n  \"occurred_at\": \"2026-11-11T08:59:40Z\"\n}",
+  "synthetic_note": "虚构设备事件，仅用于离线测试"
+}

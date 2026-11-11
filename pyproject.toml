@@ -1,6 +1,6 @@
 [project]
 name = "signed-events"
 version = "0.1.0"
-description = "来源资料采集与读取"
+description = "受信任设备质量事件回调：原始字节验签、密钥轮换、去重与交付交接"
 requires-python = ">=3.12"
 dependencies = []

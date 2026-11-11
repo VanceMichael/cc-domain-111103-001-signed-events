@@ -1,0 +1,7 @@
+{
+  "key_id": "local-2026-12",
+  "secret": "synthetic-future-shared-key-202612",
+  "valid_from": "2026-12-01T00:00:00Z",
+  "retired_at": "2027-01-01T00:00:00Z",
+  "note": "尚未生效的密钥，用于负向样例（虚构）"
+}

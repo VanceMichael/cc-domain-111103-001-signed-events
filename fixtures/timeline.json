@@ -1,0 +1,14 @@
+{
+  "sample_now_iso": "2026-11-11T09:00:00Z",
+  "sample_now_epoch": 1794387600,
+  "sent_at_iso": "2026-11-11T08:59:50Z",
+  "sent_at_epoch": 1794387590,
+  "stale_at_iso": "2026-11-11T07:00:00Z",
+  "stale_at_epoch": 1794380400,
+  "default_window_seconds": 300,
+  "overlap_window_utc": [
+    "2026-11-08T00:00:00Z",
+    "2026-11-15T00:00:00Z"
+  ],
+  "synthetic_notice": "全部为虚构样例，无真实凭据或设备"
+}
