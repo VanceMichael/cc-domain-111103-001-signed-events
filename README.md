@@ -4,7 +4,7 @@
 
 ## 来源材料
 
-Raw callback bytes are the signed representation. sample-headers.json supplies synthetic timestamp, event identity, and signature headers. event-a.json and event-b.json are UTF-8 JSON bodies. The reader performs JSON decoding only; it does not verify signatures, deduplicate, or persist delivery state.
+事件文件保存 UTF-8 JSON 原始正文，字段 event_id 是供应商事件标识。当前读取器检查对象结构和事件标识。sample-headers.json 保存本地合成请求头；签名所用测试密钥在 test-key.json 中，仅用于离线调试。
 
 上面的样例用于说明来源字段和当前读取边界。项目按原始来源保存材料；同一来源的版本变化和不同来源的同名记录需要分别核对。示例文件只用于本地调试，不代表真实企业、机构或设备数据。
 
